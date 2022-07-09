@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(24, 22, 22);
+    width: 100%;
+    color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    max-width: 100%;
+    background-color: rgb(24, 22, 22);
+    box-shadow: 1px 1px 10px #80ba2e;
+    margin-bottom: 30px;
+}
+
+header h2 {    
+    font-weight: 100;
+    font-size: 30pt;
+    color: #80ba2e;
+}
+
+header ul {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+    list-style: none;
+    color: #80ba2e;
+}
+
+li {
+    margin: 0 10px;
+}
+
+main div {
+    text-align: center;
+}
+
+main section .caminhao img, main section .vans img {
+    width: 100%;
+}
+
+main section .caminhao h3, main section .vans h3 {
+    width: 200px;
+}
+
+main section .caminhao, main section .vans {
+    display: flex;
+    margin: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    color: white; 
+    background-color: #ccc2;
+}
+
+footer div {
+    margin: 20px 0;
+}
+
+footer h4 {
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 15pt;
+    margin: 5px 0;
+}
+
+footer ul {
+    display: block;
+    list-style: none;
+}
+footer ul li {
+    margin: 10px 0;
+    
+}
