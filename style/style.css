@@ -25,7 +25,7 @@ header {
     margin-bottom: 30px;
 }
 
-header h2 {    
+header h1 {    
     font-weight: 100;
     font-size: 30pt;
     color: #80ba2e;
@@ -44,21 +44,40 @@ li {
     margin: 0 10px;
 }
 
+main {
+    font-family: 'Barlow', sans-serif;
+}
+
+main h1 {
+    margin-left: 50px;
+}
+
 main div {
     text-align: center;
 }
 
-main section .caminhao img, main section .vans img {
-    width: 100%;
+main section img {
+    margin: auto;
+    height: 500px;
+    width: 800px;
 }
 
-main section .caminhao h3, main section .vans h3 {
-    width: 200px;
-}
-
-main section .caminhao, main section .vans {
+main section .frotas{
     display: flex;
-    margin: 50px;
+    margin: 20px;
+}
+
+main section .descricao{
+    display: none;
+}
+
+main section .frotas > .descricao:hover{
+    display: block;
+    position: relative;
+    background-color: rgba(1,1,1,0.5);
+    height: 500px;
+    width: 800px;
+    margin: -800px;
 }
 
 footer {
@@ -88,6 +107,7 @@ footer ul {
     display: block;
     list-style: none;
 }
+
 footer ul li {
     margin: 10px 0;
     
