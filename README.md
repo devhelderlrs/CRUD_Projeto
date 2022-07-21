@@ -1,4 +1,4 @@
-<h1>Projeto CRUD</h1>
+<h1><text-align="center">Projeto CRUD</h1>
 <h3>Projeto para fins de estudo</h3>
 
 <h2>Passos do projeto</h2>
