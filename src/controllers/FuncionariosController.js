@@ -7,7 +7,7 @@ class FuncionariosController{
     }
 
     static visualizarFuncionariosPorNome(){
-
+        
     }
 
     static visualizarFuncionariosPorSetor(){
